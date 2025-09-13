@@ -1,0 +1,28 @@
+* SPICE3 file created from current.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 vbias1 vbias3 a_485_31# Gnd nfet w=10 l=2
++  ad=120 pd=44 as=240 ps=88
+M1001 Vdd vbias2 vbias2 w_430_85# pfet w=20 l=5
++  ad=1328 pd=300 as=280 ps=68
+M1002 a_432_31# vbias4 gnd Gnd nfet w=10 l=2
++  ad=240 pd=88 as=420 ps=166
+M1003 Vdd vbiasp vbias3 w_245_86# pfet w=24 l=2
++  ad=0 pd=0 as=336 ps=76
+M1004 a_331_49# vbias4 gnd Gnd nfet w=10 l=2
++  ad=240 pd=88 as=0 ps=0
+M1005 a_485_31# vbias4 gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1006 vbias4 vbias3 a_331_49# Gnd nfet w=10 l=2
++  ad=120 pd=44 as=0 ps=0
+M1007 Vdd vbiasp vbias4 w_324_86# pfet w=24 l=2
++  ad=0 pd=0 as=336 ps=76
+M1008 Vdd vbias1 a_536_109# w_531_145# pfet w=24 l=2
++  ad=0 pd=0 as=672 ps=152
+M1009 a_536_109# vbias2 vbias1 w_528_87# pfet w=24 l=2
++  ad=0 pd=0 as=336 ps=76
+M1010 vbias3 vbias3 gnd Gnd nfet w=5 l=2
++  ad=60 pd=34 as=0 ps=0
+M1011 vbias2 vbias3 a_432_31# Gnd nfet w=10 l=2
++  ad=120 pd=44 as=0 ps=0

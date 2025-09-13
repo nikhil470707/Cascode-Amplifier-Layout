@@ -1,0 +1,23 @@
+* Testbench for Current Mirror Circuit
+.INCLUDE "tsmc_spice_180nm.lib"    ; 
+.INCLUDE "current.spice"   ; 
+
+* Power supply
+VDD Vdd 0 1.8 ; change labels accordingly
+
+* Bias input voltage
+Vbiasp vbiasp 0 DC 1.2              ; 
+
+* Simulation control
+.TRAN 1n 10u                        ; 
+
+* Output variables to observe
+.control
+run
+plot vbiasp                         ; 
+plot vbias1                         ; 
+plot vbias2                         ; 
+plot vbias3                         ; 
+plot vbias4                         ; 
+.endc
+.end
